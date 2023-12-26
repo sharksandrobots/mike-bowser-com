@@ -13,9 +13,8 @@
   --darkGrey: #222;
   --grey: #cccccc;
   --lightGrey: #f2f4f6;
+  --medGrey: #3b423b;
   --white: #fff;
-  --medGrey: #9d9d9d;
-
 
   /* Define Color intentions */
   --primary: var(--green);
@@ -27,7 +26,7 @@
   --headerBackground: var(--burntOrange);
   --footerBackground: var(--white);
   --footerTextColor: var(--black);
-  --textLink: var(--oliveDrab);
+  --textLink: var(--medGrey);
   --textColorLight: var(--white);
   --darkBackground: var(--black);
 
@@ -226,12 +225,12 @@ header nav a + a {
 a,
 a:visited {
   color:var(--textLink);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h1,
@@ -501,7 +500,7 @@ p {
 p a,
 blockquote a {
     color:var(--textLink);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .card {
